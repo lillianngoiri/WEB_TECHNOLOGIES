@@ -1,0 +1,75 @@
+/* Header Styling */
+header {
+    background-color: pink; /* Apply background color */
+    padding: 20px; /* Add padding for style */
+    text-align: center;
+}
+
+/* Introduction Section */
+.introduction {
+    background-color: #f0f0f0; /* Use a different background color */
+    margin: 20px 0; /* Set margins for spacing */
+    padding: 15px; /* Add padding for style */
+}
+
+/* Skills Display */
+.skills {
+    border: 1px solid #ccc; /* Border for list items */
+    padding: 10px; /* Add padding */
+    margin-bottom: 20px; /* Adjust margins for spacing */
+}
+
+.skills li {
+    margin-bottom: 5px; /* Adjust margins between skills */
+}
+
+/* Contact Information */
+.contact {
+    background-color: #f9f9f9; /* Apply background color */
+    padding: 20px; /* Add padding */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Adjust header padding */
+    header {
+        padding: 15px;
+    }
+
+    /* Adjust introduction padding */
+    .introduction {
+        padding: 10px;
+    }
+
+    /* Adjust skills padding and margins */
+    .skills {
+        padding: 8px;
+        margin-bottom: 15px;
+    }
+
+    /* Adjust contact padding */
+    .contact {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Further adjustments for smaller screens */
+    /* For brevity, only padding adjustments are shown */
+    
+    header {
+        padding: 10px;
+    }
+
+    .introduction {
+        padding: 8px;
+    }
+
+    .skills {
+        padding: 6px;
+    }
+
+    .contact {
+        padding: 10px;
+    }
+}
